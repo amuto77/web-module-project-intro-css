@@ -8,7 +8,9 @@
     box-sizing: border-box;
     border:1px solid grey;
    }
-
+html{
+    font-size:62.5%;
+}
 nav a{
     color: white;
     text-decoration: none;
@@ -67,6 +69,10 @@ nav a{
     float: center;
     padding: 10%;
 }
+.top1 h1{
+    font-weight: bold;
+    font-size: 5rem;
+}
 .top2{
     display: inline-block;
     background-color: tan;
@@ -81,6 +87,16 @@ nav a{
     display: block;
     text-align: center;
     font-size: 1.6rem;
+}
+.middle-content p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.middle-content .bold-text{
+    font-weight: bold;
 }
 .middle-content img{
     height: 250px;
