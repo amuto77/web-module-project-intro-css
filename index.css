@@ -1,20 +1,103 @@
 * {
-    box-sizing:border-box; 
-    padding:0;
-    margin:0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
     border:1px solid grey;
    }
 
-html{
-    font-size:62.5%;
-  }
 nav a{
-    text-decoration:none;
-    letter-spacing:3px;
-    margin:0 9%;
-    font-size:2rem;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin: 4% 4%;
+    border-radius: 12px;
+    text-align: center;
+}
+.buttons{
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: 3rem;
+}
+.one{
+    display: inline-block;
+    background-color: #ff764e;
+    width: 15%;
+    padding: 1% 0;
+    text-align: center;
+}
+.two{
+    background-color: #5ed3eb;
+    color: white;
+    display: inline-block;
+    width: 15%;
+    padding: 1% 0;
+    text-align: center;
+}
+.three{
+    background-color: #ffcd69;
+    color: white;
+    display: inline-block;
+    width: 15%;
+    padding: 1% 0;
+    text-align: center;
+}
+}
+.top-content{
+    width:100%;
+    display:inline-block;
+    text-align: center;
+}
+.top-content img{
+    border-radius: 50%;
+    text-align: left;
+    float: left;
+    width: 25%;
+    height: auto;
+    margin: 5% 10%;
   }
-.openerimg img{
-      width:20%;
-      border-radius:50%;
-  }
+.top1{
+    display: block;
+    font-size: 1.6rem;
+    text-align: center;
+    float: center;
+    padding: 10%;
+}
+.top2{
+    display: inline-block;
+    background-color: tan;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    padding: 2% 2%;
+    text-align: center;
+    color: white;
+    margin: 10%;
+}
+.middle-content{
+    display: block;
+    text-align: center;
+    font-size: 1.6rem;
+}
+.middle-content img{
+    height: 250px;
+    width: 250px;
+    line-height: 20px;
+    text-align: center;
+}
+.footerimg img{
+    display: block;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+}
+.footer .buttons{
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: 3rem;
+}
+}
