@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    border:1px solid grey;
+   }
+html{
+    font-size:62.5%;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin: 4% 4%;
+    border-radius: 12px;
+    text-align: center;
+}
+.buttons{
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: 3rem;
+}
+.one{
+    display: inline-block;
+    background-color: #ff764e;
+    width: 15%;
+    padding: 1% 0;
+    text-align: center;
+}
+.two{
+    background-color: #5ed3eb;
+    color: white;
+    display: inline-block;
+    width: 15%;
+    padding: 1% 0;
+    text-align: center;
+}
+.three{
+    background-color: #ffcd69;
+    color: white;
+    display: inline-block;
+    width: 15%;
+    padding: 1% 0;
+    text-align: center;
+}
+}
+.top-content{
+    width:100%;
+    display:inline-block;
+    text-align: center;
+}
+.top-content img{
+    border-radius: 50%;
+    text-align: left;
+    float: left;
+    width: 25%;
+    height: auto;
+    margin: 5% 10%;
+  }
+.top1{
+    display: block;
+    font-size: 1.6rem;
+    text-align: center;
+    float: center;
+    padding: 10%;
+}
+.top1 h1{
+    font-weight: bold;
+    font-size: 5rem;
+}
+.top2{
+    display: inline-block;
+    background-color: tan;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    padding: 2% 2%;
+    text-align: center;
+    color: white;
+    margin: 10%;
+}
+.middle-content{
+    display: block;
+    text-align: center;
+    font-size: 1.6rem;
+}
+.middle-content p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.middle-content .bold-text{
+    font-weight: bold;
+}
+.middle-content img{
+    height: 250px;
+    width: 250px;
+    line-height: 20px;
+    text-align: center;
+}
+.footerimg img{
+    display: block;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+}
+.footer .buttons{
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: 3rem;
+}
+}
